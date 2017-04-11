@@ -88,6 +88,9 @@ section{
 	padding-bottom: 0.1rem;
 	border-bottom: 1px dashed black;
 }
+.jiaohu>.zhan>a{
+	color: #FF9300;
+}
 .fen{
 	padding-top: 0.2rem;
 	width: 100%;
