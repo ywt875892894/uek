@@ -1,0 +1,269 @@
+section{
+	background: #F5F6FA;
+	box-sizing: border-box;
+	padding: 0 0.24rem;
+}
+.daohang{
+	width: 100%;
+	font-size: 0.22rem;
+	line-height: 0.82rem;
+	font-weight: bold;
+	color: #494747;
+}
+.daohang>a{
+	color: #494747;
+}
+.box{
+	width: 100%;
+	background: white;
+	box-sizing: border-box;
+	padding: 0.2rem;
+	overflow: hidden;
+	margin-bottom: 0.1rem;
+}
+.gai{
+	width: 100%;
+}
+.gai>span{
+	display: inline-block;
+}
+.gai>span:nth-child(1){
+	width: 0.04rem;
+	height: 0.2rem;
+	background: #01B5FF;
+	margin-right: 0.1rem;
+}
+.gai>span:nth-child(2){
+	font-size: 0.24rem;
+	width: 6.3rem;
+	box-sizing: border-box;
+	padding-bottom: 0.1rem;
+	font-weight: bold;
+	border-bottom: 1px dashed black;
+}
+.kuai{
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+.kuai>img{
+	width: 1.21rem;
+	padding: 0.1rem 0;
+}
+.kuai>em{
+	display: block;
+	font-style: normal;
+	font-size: 0.24rem;
+	line-height: 0.3rem;
+	font-weight: bold;
+}
+.box:nth-child(4)>.wenti{
+	padding:0 0.19rem;
+	
+}
+.box:nth-child(4)>.wenti>img{
+	width: 6.42rem;
+}
+.box:nth-child(4)>.wenti>span{
+	display: block;
+	font-size: 0.26rem;
+	width: 100%;
+	text-align: center;
+}
+.wenti{
+	width: 100%;
+	box-sizing: border-box;
+	padding-left: 0.19rem;
+	padding-top: 0.1rem;
+	overflow: hidden;
+}
+.wenti>p{
+	width: 100%;
+	font-size: 0.24rem;
+	line-height: 0.36rem;
+	font-weight: bold;
+}
+.wenti>p>span{
+	display: block;
+	width: 100%;
+	color: #01B5FF;
+}
+.box:nth-child(5)>.wenti>img{
+	width: 0.56rem;
+	float: left;
+}
+.wenti>i{
+	display: block;
+	float: left;
+	font-style: normal;
+	box-sizing: border-box;
+	padding-left: 0.2rem;
+	padding-top: 0.04rem;
+}
+.wenti>i>span{
+	display: block;
+	width: 100%;
+	font-size: 0.24rem;
+	font-weight: bold;
+}
+.wenti>i>span:nth-child(1){
+	color: #01B5FF;
+}
+.wenti>i>span:nth-child(2){
+	font-size: 0.2rem;
+	font-weight: normal;
+}
+.xz{
+	width: 100%;
+	box-sizing: border-box;
+	padding-left: 0.05rem;
+}
+.xz:after{
+	content: "";
+	width: 0;
+	height: 0;
+	display: block;
+	clear: both;
+}
+.xz>dl{
+	float: left;
+	text-align: center;
+	margin-right: 0.35rem;
+}
+.xz>dl:first-child>dd{
+	padding-left: 0.14rem;
+	border-left: 1px dashed #01B5FF;
+	position: relative;
+}
+.xz>dl:first-child>dd:before{
+	content: "";
+	display: block;
+	width: 0.1rem;
+	height: 0.1rem;
+	background: #01B5FF;
+	border-radius: 50%;
+	border:0.04rem solid #94E0FF;
+	position: absolute;
+	top:0.19rem;
+	left: -0.09rem;
+}
+.xz>dl:last-child{
+	margin-right: 0;
+}
+.xz>dl:nth-child(2)>dd{
+	color: #FFA201;
+}
+.xz>dl>dt{
+	font-size: 0.24rem;
+	line-height: 0.55rem;
+	font-weight: bold;
+}
+.xz>dl>dd{
+	font-size: 0.24rem;
+	line-height: 0.55rem;
+	color: #666666;
+}
+.box:last-child{
+	margin: 0;
+}
+.kecheng{
+	height: 4rem;
+	position: relative;
+}
+.yuan{
+	width: 1.1rem;
+	height: 1.1rem;
+	background: #00A0E9;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 1.1rem;
+	font-size: 0.21rem;
+	color: white;
+	position: absolute;
+	top: 0.36rem;
+	left: 0.5rem;
+}
+.yuan:nth-child(2){
+	width: 1.5rem;
+	height: 1.5rem;
+	line-height: 1.5rem;
+	top:0.45rem;
+	left: 2.33rem;
+}
+.yuan:nth-child(3){
+	width: 1.11rem;
+	height: 1.11rem;
+	line-height: 1.11rem;
+	top: 0.36rem;
+	left: 4.54rem;
+}
+.yuan:nth-child(4){
+	width: 0.88rem;
+	height: 0.88rem;
+	line-height: 0.88rem;
+	top: 1.3rem;
+	left: 1.35rem;
+}
+.yuan:nth-child(5){
+	width: 1.23rem;
+	height: 1.23rem;
+	line-height: 1.23rem;
+	top: 1.3rem;
+	left: 3.75rem;
+}
+.yuan:nth-child(6){
+	width: 1.23rem;
+	height: 1.23rem;
+	line-height: 1.23rem;
+	top: 1.3rem;
+	left: 5.25rem;
+}
+.yuan:nth-child(7){
+	width: 1.38rem;
+	height: 1.38rem;
+	line-height: 1.38rem;
+	top: 1.5rem;
+	left: 0rem;
+}
+.yuan:nth-child(8){
+	width: 1.23rem;
+	height: 1.23rem;
+	top: 2.3rem;
+	left: 1.3rem;
+}
+.yuan:nth-child(8)>span{
+	display: inline-block;
+	padding-top: 0.4rem;
+	line-height: 0.24rem;
+}
+.yuan:nth-child(9){
+	width: 1.4rem;
+	height: 1.4rem;
+	top: 2.3rem;
+	left: 2.7rem;
+}
+.yuan:nth-child(9)>span{
+	display: inline-block;
+	padding-top: 0.5rem;
+	line-height: 0.24rem;
+}
+.yuan:nth-child(10){
+	width: 1.4rem;
+	height: 1.4rem;
+	line-height: 1.4rem;
+	top: 2.6rem;
+	left: 4.2rem;
+}
+.yuan:nth-child(11){
+	width: 0.89rem;
+	height: 0.89rem;
+	line-height: 0.89rem;
+	top: 3rem;
+	left: 0.5rem;
+}
+footer{
+	background: #F5F6FA;
+	text-align: center;
+	font-size: 0.2rem;
+	color: #666666;
+}

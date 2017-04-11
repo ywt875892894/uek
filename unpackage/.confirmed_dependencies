@@ -1,0 +1,91 @@
+{
+	"index.html": {
+		"resources": [
+			"img/shiting2.png",
+			"img/banner.png",
+			"css/comment.css",
+			"img/icon2.png",
+			"img/icon4.png",
+			"img/icon_16.png",
+			"img/toopar.png",
+			"img/icon_17.png",
+			"img/icon_13.png",
+			"js/rem.js",
+			"img/icon1.png",
+			"img/jiankang.png",
+			"css/index.css",
+			"img/shiting.png",
+			"img/shiting1.png",
+			"img/icon_15.png",
+			"img/icon_07.png",
+			"img/icon_03.png",
+			"img/banner1.png",
+			"img/icon_05.png",
+			"img/icon3.png",
+			"img/zhuxue.png",
+			"shizi.html",
+			"qianduan.html"
+		],
+		"refer": [
+			"shizi.html",
+			"qianduan.html"
+		]
+	},
+	"qianduan.html": {
+		"resources": [
+			"img/icon-2.png",
+			"css/qianduan.css",
+			"img/tijian.png",
+			"img/mianfei.png",
+			"img/icon-1.png",
+			"img/jiuye.png",
+			"img/xzbl.png",
+			"img/icon-3.png",
+			"img/0yuan.png",
+			"index.html",
+			"img/banner.png",
+			"css/comment.css",
+			"img/toopar.png",
+			"js/rem.js",
+			"css/index.css",
+			"img/banner1.png"
+		],
+		"refer": [
+			"index.html"
+		]
+	},
+	"gaoxin.html": {
+		"resources": [
+			"css/gaoxin.css",
+			"img/fenye.png"
+		]
+	},
+	"shizi.html": {
+		"resources": [
+			"img/teacher.png",
+			"css/shizi.css",
+			"img/fenye.png",
+			"css/index.css",
+			"img/banner.png",
+			"css/comment.css",
+			"img/banner1.png",
+			"img/toopar.png",
+			"js/rem.js",
+			"index.html",
+			"shizixiangqing.html"
+		],
+		"refer": [
+			"index.html",
+			"shizixiangqing.html"
+		]
+	},
+	"shizixiangqing.html": {
+		"resources": [
+			"index.html",
+			"css/szxq.css"
+		],
+		"refer": [
+			"index.html"
+		]
+	}
+}

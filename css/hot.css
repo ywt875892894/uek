@@ -1,0 +1,104 @@
+section{
+	background: #F5F6FA;
+	box-sizing: border-box;
+	padding: 0 0.24rem;
+}
+.daohang{
+	width: 100%;
+	font-size: 0.22rem;
+	line-height: 0.82rem;
+	font-weight: bold;
+	color: #494747;
+}
+.daohang>a{
+	color: #494747;
+}
+.box{
+	width: 100%;
+	background: white;
+	box-sizing: border-box;
+	padding: 0.2rem;
+	overflow: hidden;
+}
+.gai{
+	width: 100%;
+}
+.gai>span{
+	display: inline-block;
+}
+.gai>span:nth-child(1){
+	width: 0.04rem;
+	height: 0.2rem;
+	background: #01B5FF;
+	margin-right: 0.1rem;
+}
+.gai>span:nth-child(2){
+	font-size: 0.24rem;
+	width: 6.3rem;
+	box-sizing: border-box;
+	padding-bottom: 0.1rem;
+	font-weight: bold;
+}
+.jiaohu{
+	width: 100%;
+	position: relative;
+	box-sizing: border-box;
+	padding-left: 0.19rem;
+	padding-bottom: 0.2rem;
+}
+.jiaohu:before{
+	content: "";
+	display: block;
+	width: 0.08rem;
+	height: 0.08rem;
+	border-radius: 50%;
+	position: absolute;
+	left: -0.04rem;
+	top: 0.11rem;
+	border:0.02rem solid #01B5FF;
+}
+.jiaohu:after{
+	content: "";
+	display: block;
+	width: 0.04rem;
+	height: 0.04rem;
+	border-radius: 50%;
+	position: absolute;
+	z-index: 2;
+	left: 0rem;
+	top: 0.15rem;
+	background:#01B5FF ;
+}
+.jiaohu>p{
+	text-align: left;
+	font-size: 0.24rem;
+	line-height: 0.34rem;
+	font-weight: bold;
+	color: #686868;
+}
+.jiaohu>.zhan{
+	width: 100%;
+	text-align: center;
+	font-size: 0.24rem;
+	line-height: 0.34rem;
+	font-weight: bold;
+	box-sizing: border-box;
+	color: #FF9300;
+	padding-top: 0.1rem;
+	padding-bottom: 0.1rem;
+	border-bottom: 1px dashed black;
+}
+.fen{
+	padding-top: 0.2rem;
+	width: 100%;
+	background: #F5F6FA;
+}
+.fen>img{
+	width: 100%;
+}
+footer{
+	background: #F5F6FA;
+	text-align: center;
+	font-size: 0.2rem;
+	color: #666666;
+}

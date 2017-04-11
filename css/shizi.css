@@ -1,0 +1,129 @@
+section{
+	background: #F5F6FA;
+	box-sizing: border-box;
+	padding: 0 0.24rem;
+}
+.dh{
+	width: 100%;
+	height: 0.8rem;
+	box-sizing: border-box;
+	border:2px solid #01B5FF;
+	border-radius: 0.1rem;
+	position: relative;
+	margin-bottom: 0.2rem;
+}
+.dh>.font{
+	width: 33.33%;
+	font-size: 0.24rem;
+	float: left;
+	text-align: center;
+	line-height: 0.8rem;
+	font-weight: bold;
+}
+.dh>.font-son{
+	width: 2.59rem;
+	height: 0.77rem;
+	background: #01B5FF;
+	border-radius: 0.08rem;
+	position: absolute;
+	left: -0.01rem;
+	top: -0.01rem;
+	text-align: center;
+	line-height: 0.8rem;
+	font-size: 0.24rem;
+	color: white;
+}
+.dh>.font-son>.sj{
+	width: 0;
+	height: 0;
+	border-top: 0.1rem solid rgba(1,181,255,1);
+	border-left: 0.1rem solid rgba(1,181,255,0);
+	border-right: 0.1rem solid rgba(1,181,255,0);
+	position: absolute;
+	bottom: -0.08rem;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.daohang{
+	width: 100%;
+	font-size: 0.22rem;
+	line-height: 0.82rem;
+	font-weight: bold;
+}
+.daohang>a{
+	color: black;
+}
+.box{
+	width: 100%;
+	background: white;
+	box-sizing: border-box;
+	padding: 0.2rem;
+	overflow: hidden;
+	margin-bottom: 0.1rem;
+}
+.boxson{
+	background: #C8C8C8;
+	float: left;
+}
+.boxson>img{
+	width: 2.3rem;
+}
+.box>p{
+	width: 4.3rem;
+	box-sizing: border-box;
+	padding-top: 0.20rem;
+	padding-left: 0.3rem;
+	float: left;
+	overflow: hidden;
+}
+.box p>span{
+	display: block;
+	font-size: 0.26rem;
+	font-weight: bold;
+}
+.box p>span:nth-child(1){
+	float: left;
+	width: 1.7rem;
+	box-sizing: border-box;
+	padding-bottom: 0.08rem;
+	border-bottom: 1px dashed black;
+}
+.box p>span:nth-child(2){
+	font-size: 0.24rem;
+	font-weight: bold;
+	color: #FF9300;
+	float: right;
+}
+.box p>span:nth-child(2)>a{
+	color: #FF9300;
+}
+.box p>span:nth-child(3){
+	box-sizing: border-box;
+	padding-top: 0.08rem;
+	float: left;
+	font-size: 0.24rem;
+	width: 100%;
+	color: #01B5FF;
+}
+.box p>span:nth-child(4){
+	box-sizing: border-box;
+	padding-top: 0.08rem;
+	float: left;
+	font-size: 0.24rem;
+	width: 3rem;
+	line-height: 0.36rem;
+	color: #666666;
+}
+.fen{
+	width: 100%;
+}
+.fen>img{
+	width: 100%;
+}
+footer{
+	background: #F5F6FA;
+	text-align: center;
+	font-size: 0.2rem;
+	color: #666666;
+}

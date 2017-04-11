@@ -1,0 +1,79 @@
+section{
+	background: #F5F6FA;
+	box-sizing: border-box;
+	padding: 0 0.24rem;
+}
+.daohang{
+	width: 100%;
+	font-size: 0.22rem;
+	line-height: 0.82rem;
+	color: #494747;
+	font-weight: bold;
+}
+.daohang>a{
+	color:#494747 ;
+}
+.box{
+	width: 100%;
+	background: white;
+	box-sizing: border-box;
+	padding: 0.2rem;
+	overflow: hidden;
+	margin-bottom: 0.1rem;
+}
+.boxson{
+	width: 1.93rem;
+	height: 1.45rem;
+	background: #C8C8C8;
+	float: left;
+}
+.box>p{
+	box-sizing: border-box;
+	padding-top: 0.20rem;
+	padding-left: 0.3rem;
+	float: left;
+}
+.box p>span{
+	display: block;
+	width: 100%;
+	
+}
+.box p>span>i{
+	font-size: 0.26rem;
+	font-style: normal;
+	display: inline-block;
+	padding-bottom: 0.06rem;
+	border-bottom: 1px dotted black;
+	font-weight: bold;
+}
+.box p>span>i>strong{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.14rem;
+}
+.box p>span:nth-child(2){
+	font-size: 0.26rem;
+	font-weight: bold;
+	color: #94D43B;
+	padding-top: 0.1rem;
+}
+.box p>span:nth-child(2)>i{
+	border-bottom: 0px dotted black;
+	font-size: 0.22rem;
+}
+.box p>span:nth-child(3){
+	font-size: 0.22rem;
+	color: #444444;
+}
+.fen{
+	width: 100%;
+}
+.fen>img{
+	width: 100%;
+}
+footer{
+	background: #F5F6FA;
+	text-align: center;
+	font-size: 0.2rem;
+	color: #666666;
+}

@@ -1,0 +1,122 @@
+section{
+	background: #F5F6FA;
+	box-sizing: border-box;
+/*	padding: 0 0.24rem;*/
+}
+.daohang{
+	width: 100%;
+	font-size: 0.22rem;
+	line-height: 0.82rem;
+	font-weight: bold;
+	box-sizing: border-box;
+	padding-left: 0.24rem;
+	color: #494747;
+}
+.daohang>a{
+	color: #494747;
+}
+.box{
+	width: 100%;
+	background: white;
+	box-sizing: border-box;
+	padding: 0.24rem;
+	overflow: hidden;
+	margin-bottom: 0.04rem;
+}
+.box>p{
+	width: 100%;
+	font-size: 0.26rem;
+	font-weight: bold;
+	padding-bottom: 0.2rem;
+}
+.boxson{
+	width: 1.93rem;
+	height: 1.45rem;
+	box-sizing: border-box;
+	border:1px solid #01B5FF;
+	margin-left: 0.1rem;
+	position: relative;
+	float: left;
+}
+.box>p:nth-child(3){
+	float: left;
+	width: 4.5rem;
+	font-size: 0.24rem;
+	line-height: 0.34rem;
+	box-sizing: border-box;
+	padding-left: 0.25rem;
+	padding-top: 0.1rem;
+	color: #494747;
+}
+.hui{
+	width: 1.93rem;
+	height: 1.45rem;
+	position: absolute;
+	background: #C8C8C8;
+	top: 0.1rem;
+	left: -0.1rem;
+}
+.boxson>.dian{
+	width: 0.04rem;
+	height: 0.04rem;
+	background: #01B5FF;
+	border-radius: 50%;
+	position: absolute;
+}
+.boxson>.dian:nth-child(1){
+	top:-0.02rem;
+	left: -0.02rem;
+}
+.boxson>.dian:nth-child(2){
+	top:-0.02rem;
+	right: -0.02rem;
+}
+.boxson>.dian:nth-child(3){
+	bottom:-0.02rem;
+	right: -0.02rem;
+}
+.boxson>.dian:nth-child(4){
+	bottom:-0.02rem;
+	left: -0.02rem;
+}
+.fen{
+	width: 100%;
+}
+.fen>img{
+	width: 100%;
+}
+.jil{
+	width: 100%;
+	line-height: 0.62rem;
+	box-sizing: border-box;
+	border-bottom: 1px solid #D2D2D2;
+	border-top: 1px solid #D2D2D2;
+	float: left;
+}
+.jilson{
+	width: 33.33%;
+	float: left;
+}
+.jilson>img{
+	width: 0.3rem;
+	float: left;
+	padding: 0 0.09rem;
+	padding-top: 0.15rem;
+}
+.jilson>span{
+	float: left;
+	font-size: 0.2rem;
+	color: #959595;
+}
+.jilson:nth-child(3)>span{
+	float: right;
+}
+.jilson:nth-child(3)>img{
+	float: right;
+}
+footer{
+	background: #F5F6FA;
+	text-align: center;
+	font-size: 0.2rem;
+	color: #666666;
+}
